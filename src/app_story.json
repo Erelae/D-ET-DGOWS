@@ -10,7 +10,7 @@
   {
     "text": "Paris, 2018. Il est environ 22 ou 23 heures, une nuit légerement pluvieuse quand tu sors de chez toi. Où veux-tu aller?",
     "next": [
-      {"id": 3, "text": "Aller à la chicha"},
+      {"id": 3, "text": "Aller dans une chicha"},
       {"id": 7, "text": "Aller dans un bar"}
     ]
   },
@@ -34,8 +34,7 @@
     "text": " Frais et dispo pour un nouveau jour ! Tu récupére 2 point de Santé et reçois ton salaire de 6 dollars ! Que compte tu faire dans cette belle ville de Paris?",
     "next": [
       {"id": 3, "text": "Tenter la chicha"},
-      {"id": 7, "text": "Tenter un bar"},
-      {"id": 0, "text": "Finir le jeu"}
+      {"id": 7, "text": "Tenter un bar"}
     ]
   },
   {
@@ -46,19 +45,19 @@
     ]
   },
   {
-    "text": "Une fois dans les environs du bar que souhaite tu faire? Tu peux également voir un tabac pas très loin",
+    "text": "Une fois dans les environs du bar que souhaite tu faire? Tu peux également voir un tabac pas très loin(renter chez toi te donne 2 pv et 6 dollars)",
     "next": [
       {"id": 8, "text": "Acheter des cigarettes (8 $)",
         "modifiers": [
           {"type": "dollars", "value": -8},
-          {"type": "strenght", "value": -2}
+          {"type": "health", "value": -2}
         ]},
       {"id": 10, "text": "Prendre une bière (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
       {"id": 4, "text": "Rentrer à la maison"}
     ]
   },
   {
-    "text": "Tu as fumé quelques clopes, Tu perds 2 points de Force. Tu commence à fatigué.",
+    "text": "Tu as fumé quelques clopes, Tu perds 2 points de Santé. Tu commence à fatigué.",
     "next": [
       {"id": 10, "text": "Prendre une bière (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
       {"id": 4, "text": "Rentrer à la maison"}
@@ -71,7 +70,7 @@
     ]
   },
   {
-    "text": "T'es bien ! Souhaite-tu continuer à boire?, tu remarque à ta droite une jolie femme/homme tu as la possibilité de lui offrir un verre",
+    "text": "T'es bien ! Souhaite-tu continuer à boire? Tu remarque à ta droite une jolie femme/homme tu as la possibilité de lui offrir un verre",
     "next": [
       {"id": 11, "text": "Oui (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
       {"id": 4, "text": "Non merci, rentrer"},
@@ -83,7 +82,7 @@
   {
     "text": "Tu as beaucoup trop bu, tu tombe par terre.",
     "next": [
-      {"id": 1, "text": "Passer la nuit sur les pavés"},
+      {"id": 4, "text": "Passer la nuit sur les pavés", "modifiers": [{"type": "health", "value": -6}]},
       {"id": 12, "text": "Commander un uber"}
     ]
   },

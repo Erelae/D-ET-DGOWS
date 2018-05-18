@@ -23,7 +23,7 @@ class App extends Component {
       maxstrenght: 0,
       health: 0,
       maxhealth: 0,
-      dollars: 10,
+      dollars: 25,
       position: 2,
       // potion: 0,
       // weapon: '',
@@ -40,7 +40,7 @@ class App extends Component {
     const name = localStorage.getItem("name")
     const strenght = parseInt(localStorage.getItem("strenght"), 10)
     const health = parseInt(localStorage.getItem("health"), 10)
-    const dollars = parseInt(localStorage.getItem("dollars"), 10)
+    const dollars = parseInt(localStorage.getItem("dollars"), 25)
     const position = parseInt(localStorage.getItem("position"), 10)
     // const potion = parseInt(localStorage.getItem("potion"), 0)
     // const weapon = localStorage.getItem("weapon")
@@ -135,7 +135,7 @@ class App extends Component {
     this.setState({name: ''})
     this.setState({strenght: 0})
     this.setState({health: 0})
-    this.setState({dollars: 10})
+    this.setState({dollars: 20})
     this.setState({position: 2})
 
     localStorage.setItem("name", '')
