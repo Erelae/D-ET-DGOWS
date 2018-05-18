@@ -56,7 +56,7 @@ class Header extends Component {
       <div>
         <div className="gamestory-header">
           <div className="gamestory-brand">
-            // <img src={logo} className="gamestory-logo" alt="logo" />
+            <img src={logo} className="gamestory-logo" alt="logo" />
             <h1>Donjons & Dragows (DEMO)</h1>
           </div>
           {this.getRestartButton()}
