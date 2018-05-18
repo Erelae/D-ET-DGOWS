@@ -1,0 +1,101 @@
+{"story":[
+  {
+    "text": "Vous avez gagné !",
+    "next": []
+  },
+  {
+    "text": "Vous êtes MORT, retentez l'aventure pour essayer de gagner.",
+    "next": []
+  },
+  {
+    "text": "Paris, 2018. Il est environ 22 ou 23 heures, une nuit légerement pluvieuse quand tu sors de chez toi. Où veux-tu aller?",
+    "next": [
+      {"id": 3, "text": "Aller à la chicha"},
+      {"id": 7, "text": "Aller dans un bar"}
+    ]
+  },
+  {
+    "text": "T'es à la chicha, une beurette veut te michto. Tu peux lui filer un peu d'thunes pour qu'elle te  laisse tranquille.",
+    "next": [
+      {"id": 6, "text": "Se castagner", "modifiers": [{ "type": "health", "value": -20 }]},
+      {"id": 9, "text": "Donner de l'argent (1 $)", "modifiers": [{ "type": "dollars", "value": -1 }]}
+    ]
+  },
+  {
+    "text": "Retour à la maison.",
+    "next": [
+      {"id": 5, "text": "Dormir", "modifiers": [
+        { "type": "health", "value": 2 },
+        { "type": "dollars", "value": 6 }
+        ]}
+    ]
+  },
+  {
+    "text": "Vous avez bien dormi ! Vous récupérez 2 point de Santé et percevez votre salaire de 6 dollars ! Qu'allez-vous faire à présent ?",
+    "next": [
+      {"id": 3, "text": "Tenter la chicha"},
+      {"id": 7, "text": "Tenter un bar"},
+      {"id": 0, "text": "Finir le jeu"}
+    ]
+  },
+  {
+    "text": "tu n'avais pas assez de puissance, tu perd 20 points de Santé",
+    "next": [
+      {"id": 4, "text": "Rentrer chez toi"},
+      {"id": 7, "text": "Partir dans un bar"}
+    ]
+  },
+  {
+    "text": "Une fois dans les environs du bar que souhaite tu faire? Tu peux voir un tabac pas très loin également",
+    "next": [
+      {"id": 8, "text": "Acheter des cigarettes (8 $)",
+        "modifiers": [
+          {"type": "dollars", "value": -8},
+          {"type": "strenght", "value": -2}
+        ]},
+      {"id": 10, "text": "Prendre une bière (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
+      {"id": 4, "text": "Rentrer à la maison"}
+    ]
+  },
+  {
+    "text": "Vous avez fumé quelques clopes, vous perdez 2 points de Force. Tu commence à fatigué.",
+    "next": [
+      {"id": 10, "text": "Prendre une bière (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
+      {"id": 4, "text": "Rentrer à la maison"}
+    ]
+  },
+  {
+    "text": "La beurette se casse et va rejoindre ses potes t'as perdu 1$. Faché, tu vas boire un coup.",
+    "next": [
+      {"id": 7, "text": "Partir en direction d'un bar"}
+    ]
+  },
+  {
+    "text": "T'es bien ! Souhaite-tu continuer à boire ?",
+    "next": [
+      {"id": 11, "text": "Oui (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
+      {"id": 4, "text": "Non merci, rentrer"}
+
+    ]
+  },
+  {
+    "text": "Tu as beaucoup trop bu, tu tombe par terre.",
+    "next": [
+      {"id": 1, "text": "Passer la nuit sur les pavés"},
+      {"id": 12, "text": "Commander un uber"}
+    ]
+  },
+  {
+    "text": "Le uber te ramène, il est temps de payer.",
+    "next": [
+      {"id": 4, "text": "Merci, bonne soirée (10 $)", "modifiers": [{"type": "dollars", "value": -10}]},
+      {"id": 13, "text": "J'ai pas d'thunes, mais j'te mettrai 5 étoiles promis !"}
+    ]
+  },
+  {
+    "text": "T'as énervé le conducteur d'uber,il se dirige vers son coffre de voiture et sors une batte de baseball.",
+    "next": [
+      {"id": 4, "text": "Courir très vite"}
+    ]
+  }
+]}

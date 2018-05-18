@@ -1,0 +1,197 @@
+body {
+  background:#edece8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.gamestory {
+  text-align: center;
+}
+
+.gamestory-logo {
+  height: 50px;
+  margin-right:24px
+}
+
+.gamestory-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: #262524;
+  padding: 10px 30px;
+  color: white;
+}
+
+.gamestory-brand {
+  display:flex;
+  align-items:center;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: normal;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  text-transform:uppercase;
+}
+
+.title {
+  font-family: 'Londrina Solid', cursive;
+  font-weight: normal;
+  font-size: 2.3em;
+}
+
+h1 {
+  margin:4px 0;
+}
+
+.btn-group {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+
+.btn {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	transition: all 0.3s;
+  transition:none;
+  color:#000;
+  text-decoration:none;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+.btn-primary {
+	background: #f4bc42;
+	padding: 12px 24px;
+	margin: 24px 8px;
+  font-size:1em;
+  border-radius: 4px;
+  box-shadow: 0 6px #bc9132;
+}
+
+.btn-primary:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+.btn-primary:hover {
+	box-shadow: 0 4px #bc9132;
+	top: 2px;
+}
+
+.btn-primary:active {
+	box-shadow: 0 0 #bc9132;
+	top: 6px;
+}
+
+.btn-secondary {
+	background: #f46842;
+	padding: 12px;
+	margin: 0 4px;
+  font-size:0.8em;
+  border-radius: 2px;
+  box-shadow: 0 3px #994129;
+}
+
+.btn-secondary:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+	box-shadow: 0 2px #994129;
+	top: 1px;
+}
+
+.btn-secondary:active {
+	box-shadow: 0 0 #994129;
+	top: 3px;
+}
+
+.btn-disabled {
+  background: white;
+  color: #999;
+	padding: 12px 24px;
+	margin: 24px 8px;
+  font-size:0.9em;
+  border-radius: 4px;
+  box-shadow: 0 6px #999;
+  cursor: not-allowed;
+}
+
+.btn-alert {
+  display:inline-block;
+  background: white;
+  padding: 12px;
+  margin: 12px 4px;
+  font-size:0.8em;
+  border-radius: 2px;
+  box-shadow: 0 3px #555;
+}
+
+.btn-alert:hover {
+	box-shadow: 0 2px #555;
+	top: 1px;
+}
+
+.btn-alert:active {
+	box-shadow: 0 0 #555;
+	top: 3px;
+}
+
+.btn-icon {
+  position:relative;
+  padding-left:40px;
+}
+
+.btn-icon img {
+  top: 8px;
+  left: 10px;
+  position: absolute;
+  height: 24px;
+}
+
+.btn-input {
+  border-radius: 0 4px 4px 0;
+  padding: 20px 22px;
+  left: -8px;
+  top: -10px;
+  background: #f4bc42;
+  box-shadow: 0 6px #bc9132;
+}
+
+.btn-input:hover {
+  box-shadow: 0 4px #bc9132;
+  top: -8px;
+}
+
+.btn-input:active {
+	box-shadow: 0 0 #994129;
+	top: -4px;
+}
+
+.input-group {
+  border: 1px solid #999;
+  margin: 12px 8px 24px 8px;
+  padding: 12px;
+  border-radius: 4px 0 0 4px;
+  font-size: 1em;
+}
+
+.modal-alert {
+  padding:24px;
+  background:#f46842;
+}
