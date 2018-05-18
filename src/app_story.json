@@ -4,7 +4,7 @@
     "next": []
   },
   {
-    "text": "t'es éclaté contre le sol.",
+    "text": "t'es éclaté contre le sol, tu bouge plus et tu te dis que les pavés c'est pas si mal",
     "next": []
   },
   {
@@ -17,7 +17,7 @@
   {
     "text": "T'es à la chicha, une beurette veut te michto. Tu peux lui filer un peu d'thunes pour qu'elle te  laisse tranquille.",
     "next": [
-      {"id": 6, "text": "Se castagner", "modifiers": [{ "type": "health", "value": -20 }]},
+      {"id": 6, "text": "Se castagner", "modifiers": [{ "type": "health", "value": -10 }]},
       {"id": 9, "text": "Donner de l'argent (1 $)", "modifiers": [{ "type": "dollars", "value": -1 }]}
     ]
   },
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "text": "tu n'avais pas assez de puissance, tu perd 20 points de Santé",
+    "text": "Tu t'es battu avec sa clique tu t'en sors avec quelques blessures, tu perds 10 points de vie",
     "next": [
       {"id": 4, "text": "Rentrer chez toi"},
       {"id": 7, "text": "Partir dans un bar"}
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "text": "Vous avez fumé quelques clopes, vous perdez 2 points de Force. Tu commence à fatigué.",
+    "text": "Tu as fumé quelques clopes, Tu perds 2 points de Force. Tu commence à fatigué.",
     "next": [
       {"id": 10, "text": "Prendre une bière (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
       {"id": 4, "text": "Rentrer à la maison"}

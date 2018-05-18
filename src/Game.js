@@ -67,7 +67,7 @@ class Game extends Component {
     else {
       return (
         <div>
-          <p>Votre niveau de Santé est arrivé à 0. Si vous n'avez pas de potion, votre aventure se termine ici. </p>
+          <p>Le gang de la chicha était trop puissant pour toi, tu es donc laissé explosé par terre. </p>
           <Link to={process.env.PUBLIC_URL + '/character'} className="btn btn-primary" onClick={() => this.props.resetCharacter()}>Terminer l'aventure</Link>
         </div>
       )
