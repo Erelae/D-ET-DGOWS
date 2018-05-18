@@ -1,8 +1,8 @@
 {
-  "name": "gamestory",
+  "name": "dragows",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://takcastel.github.io/gamestory/",
+  "homepage": "https://samuelwcs.github.io/D-ET-DGOWS/",
   "dependencies": {
     "classnames": "^2.2.5",
     "react": "^15.5.4",
