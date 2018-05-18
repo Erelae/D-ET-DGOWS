@@ -1,6 +1,6 @@
 {"story":[
   {
-    "text": "héhé BOI!",
+    "text": "après avoir discuté toute la soirée, le feeling passe bien, et seul toi sait ce qu'il se passe après!",
     "next": []
   },
   {
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "text": "Vous avez bien dormi ! Vous récupérez 2 point de Santé et percevez votre salaire de 6 dollars ! Qu'allez-vous faire à présent ?",
+    "text": " Frais et dispo pour un nouveau jour ! Tu récupére 2 point de Santé et reçois ton salaire de 6 dollars ! Que compte tu faire dans cette belle ville de Paris?",
     "next": [
       {"id": 3, "text": "Tenter la chicha"},
       {"id": 7, "text": "Tenter un bar"},
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "text": "Une fois dans les environs du bar que souhaite tu faire? Tu peux voir un tabac pas très loin également",
+    "text": "Une fois dans les environs du bar que souhaite tu faire? Tu peux également voir un tabac pas très loin",
     "next": [
       {"id": 8, "text": "Acheter des cigarettes (8 $)",
         "modifiers": [
@@ -71,10 +71,12 @@
     ]
   },
   {
-    "text": "T'es bien ! Souhaite-tu continuer à boire ?",
+    "text": "T'es bien ! Souhaite-tu continuer à boire?, tu remarque à ta droite une jolie femme/homme tu as la possibilité de lui offrir un verre",
     "next": [
       {"id": 11, "text": "Oui (8 $)", "modifiers": [{"type": "dollars", "value": -8}]},
-      {"id": 4, "text": "Non merci, rentrer"}
+      {"id": 4, "text": "Non merci, rentrer"},
+      {"id": 0, "text": "Accoster la personne a droite (16$)", "modifiers": [{"type": "dollars", "value": -16}]}
+
 
     ]
   },
@@ -95,7 +97,12 @@
   {
     "text": "T'as énervé le conducteur d'uber,il se dirige vers son coffre de voiture et sors une batte de baseball.",
     "next": [
-      {"id": 4, "text": "Courir très vite (-5 PV)", "modifiers": [{"type": "health", "value": -5}]}
+      {"id": 4, "text": "Courir très vite", "modifiers": [{"type": "health", "value": -5}]},
+      {"id": 4, "text": "Se raviser et donner sa maigre monnaie",
+         "modifiers": [
+           {"type": "dollars", "value": -5},
+           {"type": "health", "value": -3}
+           ]}
     ]
   }
 ]}
