@@ -1,10 +1,10 @@
 {"story":[
   {
-    "text": "Vous avez gagné !",
+    "text": "héhé BOI!",
     "next": []
   },
   {
-    "text": "Vous êtes MORT, retentez l'aventure pour essayer de gagner.",
+    "text": "t'es éclaté contre le sol.",
     "next": []
   },
   {
@@ -95,7 +95,7 @@
   {
     "text": "T'as énervé le conducteur d'uber,il se dirige vers son coffre de voiture et sors une batte de baseball.",
     "next": [
-      {"id": 4, "text": "Courir très vite"}
+      {"id": 4, "text": "Courir très vite (-5 PV)", "modifiers": [{"type": "health", "value": -5}]}
     ]
   }
 ]}
